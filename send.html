@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="send.css" />
+    <title>Send Me Anything</title>
+  </head>
+  <body>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container d-flex justify-content-center">
+      <div
+        id="main_card"
+        class="card bg-warning text-white"
+        style="width: 19rem"
+      >
+        <div class="card-body">
+          <h5 class="card-title">Say Hay</h5>
+          <p class="card-text">Sodi atau Kirimin Nahu Pesan?😁</p>
+          <div class="d-flex justify-content-between">
+            <button type="button" class="btn_sodi">Sodi me?</button>
+            <button type="button" class="btn_pesan">Kirim Pesan</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SODI -->
+      <div
+        id="card_sodi"
+        class="card bg-warning text-white"
+        style="width: 19rem"
+      >
+        <div class="card-body">
+          <h6 class="card-title">Ausih ne'em sodi reh?</h6>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="2"
+          ></textarea>
+          <div class="d-flex justify-content-between mt-3">
+            <button type="button" class="btn_iyo1">Iyo ra</button>
+            <button type="button" class="btn_back1">Back</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PESAN -->
+      <div
+        id="card_pesan"
+        class="card bg-warning text-white"
+        style="width: 19rem"
+      >
+        <div class="card-body">
+          <h6 class="card-title">Kirim Pesan</h6>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea2"
+            rows="2"
+          ></textarea>
+          <div class="d-flex justify-content-between mt-3">
+            <button type="button" class="btn_iyo2">Iyo ra</button>
+            <button type="button" class="btn_back2">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Container -->
+
+    <script src="send.js"></script>
+  </body>
+</html>
