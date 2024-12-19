@@ -17,6 +17,7 @@ body {
     display: flex;
     border-radius: 1rem;
     justify-content: center;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25), 0px 4px 30px rgba(245, 123, 41, 0.438);
 }
 
 .hay {
@@ -43,8 +44,9 @@ input {
     background-color: #10375C;
     color: white;
     width: 4rem;
+    height: 1.3rem;
     border: 2px white solid;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     padding: 2px 5px;
     text-align: center;
     margin-top: 10px;
@@ -60,3 +62,52 @@ input {
     font-style: italic;
     color: white;
 }
+
+.card-mess {
+    background-color: rgba(236, 234, 234, 0.212);
+    padding: 1rem;
+    margin-top: 10rem;
+    border: 0.5px rgba(39, 39, 39, 0.308) solid;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 10rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-mess {
+    color: #10375C;
+}
+
+.text-mess {
+    font-size: 14px;
+    color: #10375C;
+}
+
+.btn-mess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #10375C;
+    color: white;
+    width: 4rem;
+    height: 1.5rem;
+    border: 2px white solid;
+    border-radius: 0.5rem;
+    padding: 2px 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 75%;
+}
+
+.animasi {
+    animation: slide 0.2s;
+}
+
+@keyframes slide {
+    0% { transform: scale(0); }
+    /* 50% { transform: scale(1.5); } */
+    100% { transform: scale(1); }
+  }

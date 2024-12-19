@@ -1,10 +1,16 @@
 const buttonIyo = document.querySelector(".btn");
-// const nama = document.querySelector("#inp");
+const sayHay = document.querySelector(".say-hay");
+const box = document.querySelector(".box");
+const cardMess = document.querySelector(".card-mess");
+cardMess.style.display = "none";
 
 buttonIyo.addEventListener("click", () => {
+  box.style.display = "none";
   let nama = document.querySelector("#inp").value;
-  alert(`Hay ${nama}😊 
-Salam Kenal yah!`);
+  sayHay.innerHTML = `Hay ${nama}!`;
+  cardMess.classList.add("animasi");
+  cardMess.style.display = "inline-block";
+  event.preventDefault();
 });
 
 // Halaman Send
